@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft/2019-09/schema#",
+    "$id": "coder-spec.json",
+    "title": "Coder WAC Specification",
+    "description": "Specification to create coder yaml configuration files.",
+    "type": "object",
+    "properties": {
+        "version": {
+            "description": "Coder configuration version",
+            "type": "string"
+        },
+        "workspace": {
+            "type": "object",
+            "properties": {
+                "type": "string"
+            }
+        }
+    }
+}
