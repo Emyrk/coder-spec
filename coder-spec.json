@@ -12,7 +12,11 @@
         "workspace": {
             "type": "object",
             "properties": {
-                "type": "string"
+                "configure": {
+                    "title": "The best field",
+                    "description": "Hello World! This is my description",
+                    "type": "object"
+                }
             }
         }
     }
