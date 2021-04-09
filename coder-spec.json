@@ -4,10 +4,18 @@
     "title": "Coder WAC Specification",
     "description": "Specification to create coder yaml configuration files.",
     "type": "object",
+    "additionalProperties": false,
     "properties": {
         "version": {
             "description": "Coder configuration version",
-            "type": "string"
+            "type": "string",
+            "deprecated":true,
+            "default": "Hello",
+            "readOnly":true
+        },
+        "word": {
+            "type": "string",
+            "examples": ["hi", "bye"]
         },
         "workspace": {
             "type": "object",
@@ -19,5 +27,6 @@
                 }
             }
         }
-    }
+    },
+    "required": ["version"]
 }

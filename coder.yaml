@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=file:///home/steven/coder-spec/coder-spec.json
+
+
+word:  "a"
+workspace:
+  configure:
+    test: 1
